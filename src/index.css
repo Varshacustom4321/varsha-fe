@@ -8,8 +8,6 @@ body {
   padding: 0;
   color: white;
 }
-
-
 /* Contact Button */
 .contact-wrapper {
   margin-top: 20px;
@@ -45,12 +43,15 @@ body {
   gap: 15px;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: all 0.3s ease;
+  visibility: hidden;
+  transition: all 0.3s ease, visibility 0s 0.3s;
   z-index: 3;
 }
 
 .contact-wrapper:hover .contact-icons {
   opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
 }
 
 .contact-icons .icon {

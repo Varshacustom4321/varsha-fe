@@ -3,7 +3,7 @@
   color: black;
   padding: 30px 20px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 40px auto; /* Added vertical margin */
   border-radius: 15px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   box-sizing: border-box;
@@ -32,12 +32,31 @@
   margin-bottom: 10px;
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
+  .terms-container {
+    margin: 30px 20px; /* Slightly smaller vertical margin, plus horizontal margin */
+    padding: 25px 15px;
+  }
+
   .terms-title {
     font-size: 2rem;
   }
 
   .terms-content {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-container {
+    margin: 20px 15px; /* Even smaller margins on mobile */
+    padding: 20px 12px;
+    border-radius: 12px; /* Slightly smaller radius */
+  }
+  
+  .terms-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
   }
 }
