@@ -8,7 +8,7 @@ body {
   padding: 0;
   color: white;
 }
-/* Contact Button */
+
 .contact-wrapper {
   margin-top: 20px;
   position: relative;
@@ -16,8 +16,7 @@ body {
 }
 
 .contact-button {
-  background-color: #fbd6eb;
-  color: black;
+  background-color: blue;
   padding: 12px 25px;
   border-radius: 30px;
   font-weight: bold;
@@ -34,7 +33,7 @@ body {
   background-color: transparent;
 }
 
-/* Contact Icons */
+
 .contact-icons {
   position: absolute;
   top: 50%;

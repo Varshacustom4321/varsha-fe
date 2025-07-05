@@ -67,14 +67,13 @@
 }
 
 .nav ul li a:hover {
-  color: #f30bb8;
+  color: blue;
   text-decoration: underline;
-  text-decoration-color: #f30bb8;
+  text-decoration-color: blue;
 }
 
 .nav ul li a.active {
-  background-color: #fbd6eb;
-  color: #f30bb8;
+  color: blue;
   border-radius: 10px;
   padding: 10px 15px;
 }
@@ -116,15 +115,13 @@
   }
 
   .nav ul li a:hover {
-    background-color: #fbd6eb;
-    color: #f30bb8;
+    color: blue;
     text-decoration: underline;
     border-radius: 10px;
   }
 
   .nav ul li a.active {
-    background-color: #fbd6eb;
-    color: #f30bb8;
+    color: blue;
     border-radius: 10px;
   }
 
