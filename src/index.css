@@ -16,7 +16,7 @@ body {
 }
 
 .contact-button {
-  background-color: blue;
+  background-color: oklab(44.834% -0.01651 -0.30026);
   padding: 12px 25px;
   border-radius: 30px;
   font-weight: bold;

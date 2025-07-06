@@ -1,9 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { FaWhatsapp, FaPhone } from 'react-icons/fa';
 import '../css/Services.css';
-import repair from '../assets/pcrepair.jpg';
-import pctroubleshoot from '../assets/pctroubleshoot.jpg';
-import pcupgrade from '../assets/pcupgrade.jpg';
+import pcdiagnose from '../assets/pcdiagnose.jpg';
+import installion from '../assets/installation.png';
+import pcconfig from '../assets/pcconfig.jpg';
+import caa from '../assets/caa.jpg';
+import laptop_repair from '../assets/laptop_repair.jpg';
 
 const Services = () => {
   const serviceRefs = useRef([]);
@@ -30,23 +32,23 @@ const Services = () => {
   const services = [
     { 
       text: "Gaming PC Or Normal PC installation and upgrades",
-      image: repair
+      image: installion
     },
     { 
       text: "Computer Diagnosis and Troubleshooting",
-      image: pctroubleshoot
+      image: pcdiagnose
     },
     { 
       text: "PC Configuration related services",
-      image: pcupgrade
+      image: pcconfig
     },
     { 
       text: "Laptop Repair and Upgrades Services at your doorstep",
-      image: repair // Repeating first image
+      image: laptop_repair
     },
     { 
       text: "Computer components and Accessories (contact for details)",
-      image: pctroubleshoot // Repeating second image
+      image: caa
     }
   ];
 
