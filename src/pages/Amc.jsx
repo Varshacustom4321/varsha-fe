@@ -66,7 +66,7 @@ const Amc = () => {
             <div className="contact-wrapper">
               <button className="contact-button">Get This Plan</button>
               <div className="contact-icons">
-                <a href="https://wa.me/916300960220" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/916300960220?text=Hi,%20I%20need%20help%20with%20AMC-related%20service" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp className="icon whatsapp" />
                 </a>
                 <a href="tel:+916300960220">
